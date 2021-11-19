@@ -6,15 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "monorepo",
+    "micro-frontends"
+  ],
   "author": "Miguel Palacio <migpalg@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "lerna": "^4.0.0",
-    "prettier": "2.4.1"
+    "prettier": "2.4.1",
+    "typescript": "^4.5.2"
   },
   "workspaces": [
     "packages/*",
